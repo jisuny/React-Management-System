@@ -12,3 +12,9 @@
 .table{
   min-width: 900px;
 }
+
+.table thead th,
+.table tbody td{
+  text-align: center;
+}
+
