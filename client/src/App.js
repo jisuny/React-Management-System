@@ -40,7 +40,7 @@ class App extends Component {
             </TableRow>
           </TableHead>
           <TableBody>
-            {this.state.customer ? this.state.customerthis.state.customer.map(c=> {
+            {this.state.customers ? this.state.customers.map(c=> {
               return(<Customer key={c.id} id={c.id} image={c.image} name={c.name} birthday={c.birthday} gender={c.gender} job={c.job}/>)
             }):""}
           </TableBody>
